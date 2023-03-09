@@ -456,12 +456,41 @@ li a:hover {
   top: 17%;
   left: 1%;
 }
+.g1:hover{
+  filter: opacity(0.5);
+}
+.g2:hover{
+  filter: opacity(0.5);
+}
+.g3:hover{
+  filter: opacity(0.5);
+}
+.g4:hover{
+  filter: opacity(0.5);
+}
+.g5:hover{
+  filter: opacity(0.5);
+}
+.g6:hover{
+  filter: opacity(0.5);
+}
+.g7:hover{
+  filter: opacity(0.5);
+}
+.g10:hover{
+  filter: opacity(0.5);
+}
+.g8:hover{
+  filter: opacity(0.5);
+}
+.g9:hover{
+  filter: opacity(0.5);
+}
 
 .g2{
   position: absolute;
   top: 17%;
   left: 20.5%;
-
 }
 .g3{
   position: absolute;
@@ -591,6 +620,7 @@ textarea {
     left: 56%;
     color: yellow;
     font-size: 27px;
+    text-decoration: underline;
 }
 
 .text20{
@@ -607,6 +637,7 @@ textarea {
     left: 53%;
     color: yellow;
     font-size: 27px;
+    text-decoration: underline;
 }
 
 .text22{
@@ -663,4 +694,17 @@ textarea {
   color: white;
   background-color: black;
   padding: 8px;
+}
+
+.footer{
+  background-color: yellow;
+  color: black;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+marquee{
+  text-decoration: underline;
 }
