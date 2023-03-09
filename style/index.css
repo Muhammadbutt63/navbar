@@ -1,0 +1,666 @@
+body{
+    margin: 0%;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    height: 60px;
+    overflow: hidden;
+    
+}
+ul{
+    display: flex;
+   margin-left: 35%;
+    width: 100%;    
+}
+
+.logo{
+    display: flex;
+    margin-left: 1%;
+    height: 55px;   
+}
+
+
+ul li{
+    list-style: none;
+}
+
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 22px 34px;
+}
+
+li a:hover {
+    background-color: black;
+  }
+
+.container img{
+        position: relative;
+        display: flex;
+}
+
+.text {
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    font-size: 60px;
+    color: white;
+    
+  }
+
+  .text2 {
+    position: absolute;
+    top: 37%;
+    left: 45%;
+    font-size: 40px;
+    color: yellow;
+    text-align: center;
+  }
+
+  .text3 {
+    position: absolute;
+    top: 45%;
+    left: 37%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+
+  .search-bar{
+    position: absolute;
+    top: 52%;
+    left: 32%;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .search-bar input{
+    border: 1px rgb(248, 251, 252);
+     width: 500px;
+     height: 30px;
+     padding: 8px;
+     background-color:rgba(255, 255, 255, 0.534);
+     border-radius: 12px;
+     color: yellow;
+     font-size: 20px;
+   }
+
+   .btn1{
+    position: absolute;
+    top: 61%;
+    left: 45%;
+   }
+   button{
+              border: 2px solid black;
+              background-color:rgba(253, 196, 9, 0) ;
+              color: yellow;
+              font-size: large;
+              cursor: pointer;
+              border-radius: 10px;
+              width: 120px;
+   }
+   .btn2{
+    position: absolute;
+    top: 13%;
+    left: 84%;
+   }
+   .btn2 button{
+              border: 2px solid black;
+              background-color:rgba(253, 196, 9, 0) ;
+              color: yellow;
+              font-size: large;
+              cursor: pointer;
+              border-radius: 10px;
+              width: 100px;
+   }
+
+   .btn3{
+    position: absolute;
+    top: 13%;
+    left: 91%;
+   }
+   .btn3 button{
+              border: 2px solid black;
+              background-color:rgba(253, 196, 9, 0) ;
+              color: yellow;
+              font-size: large;
+              cursor: pointer;
+              border-radius: 10px;
+              width: 100px;
+   }
+
+
+  .img1{
+    position: absolute;
+    top: 67%;
+    left: 38%;
+  }
+
+  .img2{
+    position: absolute;
+    top: 67%;
+    left: 50%;
+  }
+
+.head1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.Room{
+  display: flex;
+  position: relative;
+  background-color: yellow;
+  width: 100%;
+  height: 120px;
+}
+
+.Room a{
+  position: absolute;
+  top: 35%;
+  left: 42%;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 247px;
+  padding: 2px;
+  background-color: #333;
+}
+
+.Experience{
+  display: flex;
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 500px;
+}
+
+.para{
+  position: absolute;
+    top: 4%;
+    left: 27%;
+    font-size: 30px;
+    color: black;
+}
+
+.block1{
+  position: absolute;
+  background-color: black;
+  top: 25%;
+  left: 11%;
+  height: 280px;
+  width: 300px;
+}
+
+.block2{
+  position: absolute;
+  background-color: black;
+  top: 25%;
+  left: 31%;
+  height: 280px;
+  width: 300px;
+}
+
+.block3{
+  position: absolute;
+  background-color: black;
+  top: 25%;
+  left: 51%;
+  height: 280px;
+  width: 300px;
+}
+
+.block4{
+  position: absolute;
+  background-color: black;
+  top: 25%;
+  left: 71%;
+  height: 280px;
+  width: 300px;
+}
+
+.icon1{
+  position: absolute;
+  top: 30%;
+  left: 14%;
+}
+.icon2{
+  position: absolute;
+  top: 30%;
+  left: 29%;
+}
+.icon3{
+  position: absolute;
+  top: 30%;
+  left: 54.5%;
+}
+.icon4{
+  position: absolute;
+  top: 30%;
+  left: 74.5%;
+}
+
+.aboutmyhotel{
+  display: flex;
+  position: relative;
+  background-color: rgb(171, 85, 85);
+  width: 100%;
+  height: 900px;
+}
+
+.text4{
+  position: absolute;
+  top: 4%;
+  left: 32%;
+  font-size: 60px;
+  color: white;
+}
+
+.para2{
+  position: absolute;
+  top: 15%;
+  left: 8.5%;
+  right: 8%;
+  font-size: 20px;
+  color: white;
+}
+
+.img3{
+  position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.img4{
+  position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.border{
+  position: absolute;
+    top: 63%;
+    left: 55%;
+    border: 8px solid black;
+    width: 450px;
+    height: 130px;
+}
+
+.text5{
+  position: absolute;
+  top: 66.5%;
+  left: 61%;
+  font-size: 25px;
+  color: white;
+  background-color: blue;
+  padding: 3PX;
+}
+
+.text6{
+  position: absolute;
+  top: 70%;
+  left: 61%;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding-left: 14px;
+  width: 261px;
+}
+
+.ourservices{
+  position: relative;
+  display: flex;
+}
+
+.text7{
+  position: absolute;
+    top: 11%;
+    left: 43%;
+    color: azure;
+    font-size: 30px;
+}
+
+.textbox{
+  position: absolute;
+  background-color: rgba(63, 60, 60, 0.5);
+  top: 25%;
+  left: 20%;
+  height: 280px;
+  width: 450px;
+}
+
+.textbox1{
+  position: absolute;
+  background-color: rgba(63, 60, 60, 0.5);
+  top: 25%;
+  left: 50%;
+  height: 280px;
+  width: 450px;
+}
+
+.text8{
+  position: absolute;
+    top: 31%;
+    left: 26%;
+    color: azure;
+    font-size: 25px;
+}
+
+.text9{
+  position: absolute;
+    top: 31%;
+    left: 55.5%;
+    color: azure;
+    font-size: 26px;
+}
+
+.text10{
+  position: absolute;
+    top: 38%;
+    left: 22%;
+    right: 51%;
+    color: azure;
+    font-size: 20px;
+}
+
+.text11{
+  position: absolute;
+    top: 37.5%;
+    left: 51%;
+    right: 21%;
+    color: azure;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.myself{
+  position: relative;
+  display: flex;
+}
+
+.text12{
+  position: absolute;
+  top: 8%;
+  left: 44%;
+  color: white;
+  font-size: 40px;
+}
+
+.owner{
+  position: absolute;
+    top: 23%;
+    left: 20%;
+}
+
+.text13{
+  position: absolute;
+  top: 30%;
+  left: 47%;
+  color: white;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.text14{
+  position: absolute;
+  top: 36%;
+  left: 47%;
+  color: black;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text15{
+  position: absolute;
+  top: 43%;
+  left: 47%;
+  right: 28%;
+  color: white;
+  font-size: 16px;
+}
+
+.linked{
+  position: absolute;
+  top: 60%;
+  left: 47%;
+}
+
+.Gallery{
+  position: relative;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 750px;
+}
+
+.text16{
+  position: absolute;
+  top: 6%;
+  left: 43%;
+  color: white;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.g1{
+  position: absolute;
+  top: 17%;
+  left: 1%;
+}
+
+.g2{
+  position: absolute;
+  top: 17%;
+  left: 20.5%;
+
+}
+.g3{
+  position: absolute;
+  top: 17%;
+  left: 40%;
+}
+.g4{
+  position: absolute;
+  top: 17%;
+  left: 59.5%;
+}
+.g5{
+  position: absolute;
+  top: 17%;
+  left: 79%;
+}
+.g6{
+  position: absolute;
+  top: 58%;
+  left: 1%;
+}
+.g7{
+  position: absolute;
+  top: 58%;
+  left: 40%;
+}
+.g8{
+  position: absolute;
+  top: 58%;
+  left: 59.5%;
+}
+.g9{
+  position: absolute;
+  top: 58%;
+  left: 20.5%;
+}
+.g10{
+  position: absolute;
+  top: 58%;
+  left: 79%;
+}
+
+.contactus{
+  position: relative;
+  display: flex;
+}
+
+.logo2{
+  position: absolute;
+  top: 670%;
+  left: 93%;
+}
+
+.text17{
+  position: absolute;
+    top: 605%;
+    left: 24.5%;
+    color: azure;
+    font-size: 30px;
+}
+
+.back{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.437);
+  top: 613%;
+  left: 50%;
+  height: 385px;
+  width: 500px;
+  border: 5px solid black;
+}
+
+.text18{
+  position: absolute;
+    top: 605%;
+    left: 58%;
+    color: azure;
+    font-size: 30px;
+}
+
+.form {
+  background-color: rgba(0, 0, 0, 0.437);
+  position: absolute;
+  top: 613%;
+  left: 15%;
+  max-width: 450px;
+  border: 5px solid black;
+  padding: 20px
+}
+
+.form label {
+  font-size: 18px;
+  color: white;
+}
+
+.form input{
+  color: yellow;
+}
+
+.form input,
+textarea {
+  background-color: rgba(0, 0, 0, 0.437);
+  width: 100%;
+  padding: 10px;
+  border: 1px solid yellow;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.form input[type="submit"] {
+  background-color: brown;
+  padding: 12px;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.text19{
+  position: absolute;
+    top: 620%;
+    left: 56%;
+    color: yellow;
+    font-size: 27px;
+}
+
+.text20{
+  position: absolute;
+    top: 620%;
+    left: 63%;
+    color: white;
+    font-size: 27px;
+}
+
+.text21{
+  position: absolute;
+    top: 628%;
+    left: 53%;
+    color: yellow;
+    font-size: 27px;
+}
+
+.text22{
+  position: absolute;
+    top: 628%;
+    left: 59%;
+    color: white;
+    font-size: 24px;
+}
+
+.text23{
+  position: absolute;
+    top: 635%;
+    left: 57.5%;
+    color: yellow;
+    font-size: 27px;
+}
+.text24{
+  position: absolute;
+    top: 642%;
+    left: 63%;
+    color: white;
+    font-size: 27px;
+}
+
+.text25{
+  position: absolute;
+    top: 648.5%;
+    left: 56.5%;
+    color: yellow;
+    font-size: 27px;
+}
+
+.text26{
+  position: absolute;
+    top: 654.5%;
+    left: 61.5%;
+    color: white;
+    font-size: 24px;
+}
+
+.c{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+}
+.gall{
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  padding: 8px;
+}

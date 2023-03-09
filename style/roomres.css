@@ -1,0 +1,147 @@
+body{
+    margin: 0%;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    height: 60px;
+    overflow: hidden;
+    
+}
+ul{
+    display: flex;
+   margin-left: 75%;
+    width: 100%;    
+}
+
+.logo{
+    display: flex;
+    margin-left: 1%;
+    height: 55px;   
+}
+
+
+ul li{
+    list-style: none;
+}
+
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 22px 34px;
+}
+
+li a:hover {
+    background-color: black;
+  }
+
+  h1{
+    margin-top: 3%;
+    background-color: #00000073;
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 5px;
+}
+
+form {
+    position: relative;
+    display: inline-block;
+    background-color: #00000073;
+    max-width: 390px;
+    margin-left: 17%;
+    padding: 35px;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-top: 0%;
+    height: 600px;
+  }
+
+  label {
+    font-size: 18px;
+    color: white;
+  }
+
+  .label1{
+    color: white;
+    width: 100%;
+    background-color: #333;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+ select{
+    background-color: #6a65657d;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    color: yellow;
+    margin-top: 5px;
+    
+}
+option{
+    background-color: #333;
+}
+  input[type="text"],
+  input[type="number"],
+  input[type="password"], 
+  input[type="email"]
+  {  
+    background-color: #6a65657d;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    color: yellow;
+    margin-top: 5px;
+
+  }
+
+  input[type="date"]
+  {
+    background-color: #6a65657d;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    color: yellow;
+    margin-top: 5px;
+  }
+
+  input[type="submit"] {
+    background-color: brown;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: rgb(137, 10, 10);
+  }
+
+  .footer{
+    margin-top: 80px;
+    background-color: black;
+    height: 5px;
+  }
+
+  .form2{
+    position: absolute;
+    margin-left: 3%;
+  }
